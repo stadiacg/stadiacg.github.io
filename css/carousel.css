@@ -1,0 +1,140 @@
+﻿/* NAV */
+.nav {
+background-color: #B2E6FF;
+height: 50px;
+}
+
+.nav a{
+color:#1F2B33;
+font-size: 14px;
+font-family: "Segoe UI";
+font-weight:bold;
+text-transform:uppercase;
+
+}
+
+.nav .row {
+  text-align:right;
+  list-style-type: none;
+  position:relative;
+  padding-top:15px;
+  margin-right:50px;
+ }
+
+.nav ul {
+  text-align:right;
+  list-style-type: none;
+  position:relative;
+  padding-top:15px;
+  margin-right:-80px;
+ }
+
+
+.nav li {
+	display:inline;
+	margin:2%;
+}
+
+/* CAROUSEL */
+
+.carousel-caption{
+	position: absolute;
+	left:30px;
+	bottom:30px;
+ 	border-radius: 15px;
+ 	height: 30%;
+ 	width:30%;
+}
+
+h3{
+   position: fixed;
+    margin: 0;     
+    color: white;
+    padding-top: 90px;
+    font-size: 40px;
+    font-family: "Segoe UI";
+      }
+
+.active item{
+    float:left;
+    background: white;    
+    text-align: center;
+    height: 100% ;
+}
+
+.item{
+    float:left;
+    background: white;    
+    text-align: center;
+    height: 500px ;
+}
+.carousel{
+    margin-top: 0px;
+}
+.bes{
+	margin: 0px;
+}
+
+.carousel .item {
+	-webkit-transition: opacity 3s; 
+	-moz-transition: opacity 3s; 
+	-ms-transition: opacity 3s; 
+	-o-transition: opacity 3s; 
+	transition: opacity 3s;
+}
+
+.carousel .active.left {
+	left:0;
+	opacity:0;
+	z-index:2;
+}
+	
+.carousel .next {
+left:0;
+opacity:1;
+z-index:1;
+}
+
+carousel-indicators{
+position:absolute;
+right:50px;
+}
+/* Thumbnails */
+.thumbs{
+    top: 500px;
+    height:500px;
+    background-color:#B2E6FF;
+    border-bottom: 1px solid #dbdbdb;
+    font-family: "Segoe UI";
+    font-weight:bold;
+    }
+    
+
+.thumbnail{
+	padding-top: 20%;
+	padding-left: 10%;
+	background-color:transparent;
+	border:0;
+	color:#272F33;
+	font-size:18px;
+	outline: black;
+
+}
+.thumbnail img{
+	height: 150px;
+	width: 150px;
+	}
+
+.learn-more {
+  background-color: #6CB5FF;
+}
+
+.learn-more h3 {
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+	height:30px;
+  	color: #000000;
