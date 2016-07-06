@@ -54,7 +54,7 @@ body {
 }
 
 .jumbotron  {
-    background-image: url('../images/amstImagery.png');
+    background-image: url(../images/amstImagery.png);
     background-size: cover;
     height: 450px;*/
     height:100%;
